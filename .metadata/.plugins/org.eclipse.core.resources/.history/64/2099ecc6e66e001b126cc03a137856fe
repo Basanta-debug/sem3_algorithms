@@ -1,0 +1,12 @@
+
+public class janak_qn5 {
+	
+	public void main(String[ ] args) {
+		
+		String Name;
+		
+		
+		System.out.println("Name       Lab      Bonus      Total");
+	}
+
+}

@@ -1,0 +1,22 @@
+
+
+public class janak_qn2 {
+	
+	public static void main(String [] args){
+		
+		
+		String Name = "Janak";
+		String title = "Bsc Hons Computing";
+		String age = "45";
+		String id = "190394";
+		String phone = "9845053322";
+		
+		System.out.println("My name is: "+ Name);
+		System.out.println("Course Title: "+ Name);
+		System.out.println("Age: "+ Name);
+		System.out.println("Student ID: "+ Name);
+		System.out.println("Phone number: "+ Name);
+		
+	}
+
+}

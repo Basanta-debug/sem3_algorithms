@@ -1,0 +1,23 @@
+package ConvexHall;
+
+import java.util.*;
+
+public class GiftWrapping {
+	public void convexHall(Coordinate point[]) {
+		Stack<Coordinate> stack=new Stack<Coordinate>();
+		int left=0;
+		int n= point.length;
+		for(int i=1; i<n; i++) {
+			if(point[i].x <point[left].x) {
+				left=i;
+				
+			}
+		}
+		int p=left;
+		do {
+			stack.add(point[p]);
+			int q =(p+1)%n;
+		}while(p!=left);
+	}
+
+}

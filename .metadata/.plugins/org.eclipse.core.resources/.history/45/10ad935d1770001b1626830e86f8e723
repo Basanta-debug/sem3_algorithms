@@ -1,0 +1,23 @@
+package ConvexHall;
+
+public class Main {
+	public static void main(String[] args) {
+		Coordinate point[]=new Coordinate[8];
+		
+		
+		point[0]=new Coordinate(0,0);
+		point[0]=new Coordinate(0,0);
+		point[0]=new Coordinate(0,0);
+		point[0]=new Coordinate(0,0);
+		point[0]=new Coordinate(0,0);
+		point[0]=new Coordinate(0,0);
+		point[0]=new Coordinate(0,0);
+		point[0]=new Coordinate(0,0);
+		
+		
+		GiftWrapping fgw= new GiftWrapping();
+		gfw.convexHall(point);
+		
+	}
+
+}
